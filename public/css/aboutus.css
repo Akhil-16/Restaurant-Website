@@ -1,0 +1,12 @@
+*{
+    margin: 1px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    overflow-y: hidden;
+}
+.section{
+    display: flex;
+    align-items: center;
+}

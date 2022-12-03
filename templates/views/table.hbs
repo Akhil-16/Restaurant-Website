@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/booktable.css">
+
+    
+</head>
+<style>
+   
+
+</style>
+
+<body>
+
+{{>nav}}
+
+    <div class="heading">
+      
+
+    </div>
+    
+
+    <div class="section1">
+    
+    <div class="container">
+        <h1 id="h1">Table Booking</h1>
+       
+        <form  action="/table" id="book-form" method="POST" >
+            <div>
+                <label for="people" class="color">No. of people</label>
+                <input type="number"  id="people" class="u-full-width" name="people">
+
+            </div>
+            <div>
+                <label for="time" class="color">Time</label>
+                <input type="text" id="time"class="u-full-width" name="time">
+                
+            </div>
+            <div>
+                <label for="firstname" class="color">First Name</label>
+                <input type="text" id="firstname"class="u-full-width" name="firstname">
+                
+            </div>
+            <div>
+                <label for="lastname" class="color">Last Name</label>
+                <input type="text" id="lastname"class="u-full-width" name="lastname">
+                
+            </div>
+            <div>
+                <label for="phone number" class="color">Phone Number</label>
+                <input type="number" id="phone"class="u-full-width" name="phonenumber">
+                
+            </div>
+            
+                <label for="type" class="color">Type</label>
+                <input type="text" id="type"class="u-full-width" name="select">
+
+
+                
+
+                
+                
+            </div>
+            <div class="sec2">
+                <h1 id="margin">Reserve Now</h1>
+                
+                <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum fugiat alias tenetur, veritatis omnis eum officiis nesciunt </p>
+                <br>
+                <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eius illo voluptatibus nihil quidem enim autem! Ad labore, temporibus voluptas beatae, eos quas cupiditate doloribus aut, corporis qui nemo id!</p>
+           
+            </div>
+        </div>
+
+
+            <br>
+       
+            <div>
+                <input type="submit" value="Register" id="submit" > 
+            </div>
+            <br>
+        </form>
+        <table class="tab">
+            <thead>
+                <th class="dis">People</th>
+                <th class="dis">Type</th>
+                <th class="dis">Time</th>
+                <th class="dis"> Name</th>
+                
+                <th class="dis">Phone Number</th>
+                
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
+    </div>
+
+   <script src="js/booktable.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.alert{
+    color: white;
+}
+.dis{
+    color: white;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.u-full-width{
+    display: block;
+    width: 500px;
+}
+.tab {
+  
+    border-spacing: 37px 14px;
+  }
+
+
+  .heading{
+    height: 500px;
+width: 100%;
+background: url(../Images/pizza1.png) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+  
+    
+  }
+  .container{
+    margin: 3px;
+    padding: 3px;
+  }
+  #submit{
+   width: 100px;
+  margin-left: 30px;
+  padding: 3px;
+  }
+  .section1{
+    display: flex;
+    align-items:center;
+ 
+    justify-content: space-evenly
+    
+    
+  }
+  #lorem{
+    color: white;
+    font-size: 20px;
+  }
+  #margin{
+    color: white;
+    margin: 10px;
+  }

@@ -1,0 +1,141 @@
+{
+    "navbar":["HOME","ABOUT US", "CONTACT US","REVIEWS"],
+    "logo": [{"logoimg":"logo.png"},{"firstname":"Fine"},{"secondname":"Dine"},{"login":"acnt logo.png"}],
+   "href":["#","AboutUs.html","contactus.html","#"],
+    
+    "circleimage":["m1.png","m2.png","m3.png","m4.png","m5.png","m6.png","m7.png","m8.png","m9.png"],
+    "home":{
+        "heading":"Time to Enjoy",
+        "text":"We prepare some of the tasty dishes so that everyone can quench on them.Nothing brings people like food",
+        "order":"Order Now",
+        "table":"Book table"
+
+    },
+
+   
+    
+    
+
+    "offerzone":{
+        "name":"--OfferZone--",
+        "items":[{
+            "image":"p3.jpg",
+            "name":"Pizza",
+            "Orginalprice":"$70",
+            "Offerprice":"$65"
+
+        },
+        {
+            "image":"pizza.png",
+            "name":"Shake",
+            "Orginalprice":"$50",
+            "Offerprice":"$40"
+
+        },
+        {
+            "image":"p4.png",
+            "name":"Burger",
+            "Orginalprice":"$65",
+            "Offerprice":"$50"
+
+        }
+       ]
+    },
+    "Location":"Location",
+    "items":[{
+        "image":"char.png",
+        "name":"hyderabad"
+        },
+        {
+        "image":"newyork.png",
+        "name":"newyork"
+        },
+        {
+            "image":"rome.png",
+            "name":"Rome"
+        },
+        {
+            "image":"guj.png",
+            "name":"gujarath"
+        }],
+
+    "customer":{
+        "heading":"-Customer Review-",
+        "customerlist":[{
+            "image":"person.png",
+            "review":"Lorem ipsum dolor sit amet consectetur adipisicing elit.a formal assessment of something with the intention of instituting change if necessary."
+            },
+            {
+                "image":"person.png",
+                "review":"Lorem ipsum dolor sit amet consectetur adipisicing elit.a formal assessment of something with the intention of instituting change if necessary."
+                },
+                {
+                    "image":"person.png",
+                    "review":"Lorem ipsum dolor sit amet consectetur adipisicing elit.a formal assessment of something with the intention of instituting change if necessary."
+                    },
+                    {
+                        "image":"person.png",
+                        "review":"Lorem ipsum dolor sit amet consectetur adipisicing elit.a formal assessment of something with the intention of instituting change if necessary."
+                        }
+        ]
+
+      
+    },
+    "FineDine":{
+        "name":"Fine Dine",
+        "description":"Making your special occasion more special.",
+        "des1":"Do give us a try!!"
+        
+
+    },
+    "order":{
+        "heading":"Menu",
+        "call":["item1","item2","item3","item4"],
+        "items":[{
+            "image":"../Images/img.jpg",
+            "name":"Capra",
+            "price":"$600"
+        },
+        {
+            "image":"../Images/img4.jpg",
+            "name":"Chicken65",
+            "price":"$70"
+        },
+        {
+            "image":"../Images/img1.jpg",
+            "name":"Prance",
+            "price":"$100"
+        },
+        {
+            "image":"../Images/paneer-tikka.jpg",
+            "name":"PaneerTikka",
+            "price":"$150"
+        },
+        {
+            "image":"../Images/paneer-65.jpg",
+            "name":"paneer65",
+            "price":"$50"
+        }
+       
+    
+    
+    ]
+    },
+
+    "AboutUs":{
+        "heading":"About Us",
+        "title1":"Fine Dine",
+        "title2":"Resturent",
+        "Description":"Fine Dine introduces itself as a progressive & vibrant bakery & sweet house that offers an excellent collection of the Choicest bakeries, Sweets and Haleem.",
+        "image":"../Images/about.png"
+
+    },
+"password":{
+    "id":["upper","lower","number","special_char","length"],
+    
+    "names":["Atleast One UpperCase","Atleast One LowerCase","Atleast one Number","Atleast one special Symbol","Atleast 8 characters"]}
+
+    
+
+    
+}
